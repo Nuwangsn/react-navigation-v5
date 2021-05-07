@@ -5,7 +5,7 @@ const HomeScreen = (props) => {
     return (
         <View style={styles.screen}>
             <Text>Home Screen</Text>
-            <Button title="Go to Detalis" onPress={()=>props.navigation.navigate('Detail')} />
+            {/* <Button title="Go to Detalis" onPress={()=>props.navigation.navigate('Detail')} /> */}
         </View>
     )
 }

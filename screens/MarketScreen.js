@@ -1,16 +1,15 @@
 import React from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
-const DetailScreen = () => {
+const MarketScreen = () => {
     return (
         <View style={styles.screen}>
-            <Text> DetailScreen</Text>
-            {/* <Button title="Go to Detalis" /> */}
+            <Text>Market Screen</Text>
         </View>
     )
 }
 
-export default DetailScreen
+export default MarketScreen
 
 const styles = StyleSheet.create({
     screen:{

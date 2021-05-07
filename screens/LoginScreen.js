@@ -5,10 +5,10 @@ const LoginScreen = props => {
   return (
     <View style={styles.screen}>
       <Text> Login Screen</Text>
-      <Button
+      {/* <Button
         title="Go to home"
         onPress={() => props.navigation.navigate('Home')}
-      />
+      /> */}
     </View>
   );
 };

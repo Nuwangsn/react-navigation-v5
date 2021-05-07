@@ -1,16 +1,15 @@
 import React from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
-const DetailScreen = () => {
+const StayScreen = () => {
     return (
         <View style={styles.screen}>
-            <Text> DetailScreen</Text>
-            {/* <Button title="Go to Detalis" /> */}
+            <Text>Stay Screen</Text>
         </View>
     )
 }
 
-export default DetailScreen
+export default StayScreen
 
 const styles = StyleSheet.create({
     screen:{
